@@ -1,0 +1,34 @@
+<rig>
+    <camera>
+        <camera_model name="" index="0" serialno="18446744073709551615" type="calibu_fu_fv_u0_v0" version="8">
+            <width> 628 </width>
+            <height> 468 </height>
+            <!-- Use RDF matrix, [right down forward], to define the coordinate frame convention -->
+            <right> [ 1; 0; 0 ] </right>
+            <down> [ 0; 1; 0 ] </down>
+            <forward> [ 0; 0; 1 ] </forward>
+            <!-- Camera parameters ordered as per type name. -->
+            <params> [ 579.2045; 573.5092; 313.3166; 234.5687 ] </params>
+        </camera_model>
+        <pose>
+            <!-- Camera pose. World from Camera point transfer. 3x4 matrix, in the RDF frame convention defined above -->
+            <T_wc> [ 1, 0, 0, 0; 0, 1, 0, 0; 0, 0, 1, 0 ] </T_wc>
+        </pose>
+    </camera>
+    <camera>
+        <camera_model name="" index="1" serialno="18446744073709551615" type="calibu_fu_fv_u0_v0_w" version="8">
+            <width> 640 </width>
+            <height> 480 </height>
+            <!-- Use RDF matrix, [right down forward], to define the coordinate frame convention -->
+            <right> [ 1; 0; 0 ] </right>
+            <down> [ 0; 1; 0 ] </down>
+            <forward> [ 0; 0; 1 ] </forward>
+            <!-- Camera parameters ordered as per type name. -->
+            <params> [ 262.0509; 260.1796; 314.9258; 247.5855; 0.890481 ] </params>
+        </camera_model>
+        <pose>
+            <!-- Camera pose. World from Camera point transfer. 3x4 matrix, in the RDF frame convention defined above -->
+            <T_wc> [ 0.9999235, -0.008500404, -0.008984168, -0.02976006; 0.00853071, 0.999958, 0.003340345, -1.953447e-05; 0.008955397, -0.003416731, 0.9999541, -0.0004956965 ] </T_wc>
+        </pose>
+    </camera>
+</rig>

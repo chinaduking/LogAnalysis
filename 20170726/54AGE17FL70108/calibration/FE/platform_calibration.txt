@@ -1,0 +1,396 @@
+{
+  "CamerasIntrinsics": [
+    {
+      "cameraID": 1,
+      "cameraName": "Fisheye",
+      "distortionModel": "F_theta",
+      "focalLength": {
+        "x": 260.7269,
+        "y": 258.9113
+      },
+      "k": [
+        0.8861184,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "principalPoint": {
+        "x": 317.7547,
+        "y": 241.1369
+      },
+      "resolution": {
+        "mHeight": 480,
+        "mWidth": 640
+      }
+    },
+    {
+      "cameraID": 1,
+      "cameraName": "F200 Depth",
+      "distortionModel": "DS4_distortion",
+      "focalLength": {
+        "x": 451.0762,
+        "y": 451.0762
+      },
+      "principalPoint": {
+        "x": 239.63704,
+        "y": 179.6525
+      },
+      "resolution": {
+        "mHeight": 360,
+        "mWidth": 480
+      }
+    },
+    {
+      "cameraID": 1,
+      "cameraName": "F200 RGB",
+      "distortionModel": "DS4_distortion",
+      "focalLength": {
+        "x": 918.18066,
+        "y": 919.12354
+      },
+      "k": [
+        0.06532877,
+        -0.123839445,
+        -1.2277089E-4,
+        0.0019248413,
+        0.0
+      ],
+      "principalPoint": {
+        "x": 636.7342,
+        "y": 369.27206
+      },
+      "resolution": {
+        "mHeight": 720,
+        "mWidth": 1280
+      }
+    },
+    {
+      "cameraID": 1,
+      "cameraName": "F200 Depth",
+      "distortionModel": "DS4_distortion",
+      "focalLength": {
+        "x": 305.17554,
+        "y": 305.17554
+      },
+      "principalPoint": {
+        "x": 159.5,
+        "y": 119.60317
+      },
+      "resolution": {
+        "mHeight": 240,
+        "mWidth": 320
+      }
+    },
+    {
+      "cameraID": 1,
+      "cameraName": "F200 RGB",
+      "distortionModel": "DS4_distortion",
+      "focalLength": {
+        "x": 918.18066,
+        "y": 919.12354
+      },
+      "k": [
+        0.06532877,
+        -0.123839445,
+        -1.2277089E-4,
+        0.0019248413,
+        0.0
+      ],
+      "principalPoint": {
+        "x": 636.7342,
+        "y": 369.27206
+      },
+      "resolution": {
+        "mHeight": 720,
+        "mWidth": 1280
+      }
+    },
+    {
+      "cameraID": 1,
+      "cameraName": "F200 Depth",
+      "distortionModel": "DS4_distortion",
+      "focalLength": {
+        "x": 582.3868,
+        "y": 582.3868
+      },
+      "principalPoint": {
+        "x": 316.21063,
+        "y": 233.69688
+      },
+      "resolution": {
+        "mHeight": 468,
+        "mWidth": 628
+      }
+    },
+    {
+      "cameraID": 1,
+      "cameraName": "F200 RGB",
+      "distortionModel": "DS4_distortion",
+      "focalLength": {
+        "x": 918.18066,
+        "y": 919.12354
+      },
+      "k": [
+        0.06532877,
+        -0.123839445,
+        -1.2277089E-4,
+        0.0019248413,
+        0.0
+      ],
+      "principalPoint": {
+        "x": 636.7342,
+        "y": 369.27206
+      },
+      "resolution": {
+        "mHeight": 720,
+        "mWidth": 1280
+      }
+    }
+  ],
+  "Extrinsics": [
+    {
+      "A_ID": 0,
+      "B_ID": 1,
+      "name": "depth to color",
+      "rotation_A_to_B": [
+        [
+          0.9999992,
+          -0.0011055141,
+          5.122805E-4
+        ],
+        [
+          0.0011034892,
+          0.99999166,
+          0.0039364854
+        ],
+        [
+          -5.16628E-4,
+          -0.0039359173,
+          0.99999213
+        ]
+      ],
+      "translation_A_to_B": [
+        -57.916035,
+        -0.03509108,
+        -1.3845268
+      ]
+    },
+    {
+      "A_ID": 0,
+      "B_ID": 2,
+      "name": "depth to world",
+      "rotation_A_to_B": [
+        [
+          1.0,
+          9.553944E-11,
+          1.0141091E-10
+        ],
+        [
+          9.553944E-11,
+          1.0,
+          6.9597544E-12
+        ],
+        [
+          1.0141091E-10,
+          6.9597544E-12,
+          1.0
+        ]
+      ],
+      "translation_A_to_B": [
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "A_ID": 0,
+      "B_ID": 1,
+      "name": "depth to color",
+      "rotation_A_to_B": [
+        [
+          0.9999992,
+          -0.0011055141,
+          5.122805E-4
+        ],
+        [
+          0.0011034892,
+          0.99999166,
+          0.0039364854
+        ],
+        [
+          -5.16628E-4,
+          -0.0039359173,
+          0.99999213
+        ]
+      ],
+      "translation_A_to_B": [
+        -57.916035,
+        -0.03509108,
+        -1.3845268
+      ]
+    },
+    {
+      "A_ID": 0,
+      "B_ID": 2,
+      "name": "depth to world",
+      "rotation_A_to_B": [
+        [
+          1.0,
+          9.553944E-11,
+          1.0141091E-10
+        ],
+        [
+          9.553944E-11,
+          1.0,
+          6.9597544E-12
+        ],
+        [
+          1.0141091E-10,
+          6.9597544E-12,
+          1.0
+        ]
+      ],
+      "translation_A_to_B": [
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "A_ID": 0,
+      "B_ID": 1,
+      "name": "depth to color",
+      "rotation_A_to_B": [
+        [
+          0.9999992,
+          -0.0011055141,
+          5.122805E-4
+        ],
+        [
+          0.0011034892,
+          0.99999166,
+          0.0039364854
+        ],
+        [
+          -5.16628E-4,
+          -0.0039359173,
+          0.99999213
+        ]
+      ],
+      "translation_A_to_B": [
+        -57.916035,
+        -0.03509108,
+        -1.3845268
+      ]
+    },
+    {
+      "A_ID": 0,
+      "B_ID": 2,
+      "name": "depth to world",
+      "rotation_A_to_B": [
+        [
+          1.0,
+          9.553944E-11,
+          1.0141091E-10
+        ],
+        [
+          9.553944E-11,
+          1.0,
+          6.9597544E-12
+        ],
+        [
+          1.0141091E-10,
+          6.9597544E-12,
+          1.0
+        ]
+      ],
+      "translation_A_to_B": [
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "A_ID": 100,
+      "B_ID": 0,
+      "name": "fisheye_wrt_imu",
+      "rotation_A_to_B": [
+        [
+          1.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          1.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "translation_A_to_B": [
+        0.00831,
+        0.00229,
+        0.00451
+      ]
+    },
+    {
+      "A_ID": 100,
+      "B_ID": 1,
+      "name": "narrow_wrt_imu",
+      "rotation_A_to_B": [
+        [
+          1.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          1.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "translation_A_to_B": [
+        0.09499,
+        0.00229,
+        0.00164
+      ]
+    },
+    {
+      "A_ID": 100,
+      "B_ID": 2,
+      "name": "depth_wrt_imu",
+      "rotation_A_to_B": [
+        [
+          1.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          1.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "translation_A_to_B": [
+        0.03659,
+        0.00229,
+        0.00197
+      ]
+    }
+  ]
+}

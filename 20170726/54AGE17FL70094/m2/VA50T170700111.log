@@ -1,0 +1,57 @@
+[SYSTEM]
+SPN=null
+SN=VA50T170700111
+MBSN=54AGE17FL70094
+BTMAC=B8-AE-ED-CD-89-DE
+WMAC=B8-AE-ED-ED-A4-E3
+
+[TEST]
+SYSTIME=2017-07-22-03:57:41
+CPU=Intel(R) Atom(TM) x7-Z8750  CPU @ 1.60GHz
+EMMC=58.242188GB
+RAM=3940152KB
+CAMERA_1=799MP      /* Camera Size*/
+CAMERA_2=207MP      /* Camera Size*/
+
+IFWI=VA50EC243
+ANDOIRD=5.1.1
+BUILD=LMY47Z
+BUILD.image=G1T_eng.V5.48.70
+BUILD.Fingerprint=i-Buddie/VA50EC_i_Buddie/VA50EC_1:5.1.1/LMY47Z/80:eng/test-keys
+
+SIMCARD=NG
+SIGNALSTRENGTH=null
+SD STORAGE=null
+CHARGE=BatteryN:100%   BatteryV:4170mV
+THERMAL=max170xx_battery:27,soc_dts0:39,soc_dts1:35,SYSTHERM0:32,SYSTHERM1:32
+ALS=null
+PROX=null
+ACCEL=X:-0.00,Y:0.00,Z:-9.80
+MAGNETIC=null
+GYRO=null
+NFC=null
+LED=null
+OTG=null
+BT TEST=Connect Delay:1500738749925ms      Device Address:B4:D5:BD:72:CA:AD
+WIFI TEST=Link Speed:-1mbps
+
+[RESULT]
+ brightness_test= pass
+ scan_sn= pass
+ ring_test= pass
+ charge_test= pass
+ J2xxHyperTerm_test= pass
+ BmmCompass_test= pass
+ gps_test= pass
+ mic_test= pass
+ fpga_mic_test= pass
+ bt_wifi_test= pass
+ touch_draw= pass
+ camera supported size= pass
+ accel_test= pass
+ vga_camere= pass
+ lcd_test= pass
+ otg_test= pass
+ version_info= pass
+ thermal_test= pass
+ main_camera= pass 
